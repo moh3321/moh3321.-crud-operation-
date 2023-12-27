@@ -1,0 +1,41 @@
+
+/* 0 =>600px */
+@media screen and (max-width:600px){
+    .baking .baking-content .item {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:601px) {
+    .baking .baking-content .item {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .baking .baking-content .item {
+        width: 33.333333%;
+    }
+}
+
+@media all and (min-width:993px) {
+    .baking .baking-content .item {
+        width: 25%;
+    }
+}
+
+@media all and (min-width:1200px){
+    .baking .baking-content .item {
+        width: 20%;
+    }
+}
+/* types of media  */
+@media print{
+    .baking .baking-content .item {
+        width: 100%;
+    }
+    .baking .baking-title{
+        display: none;
+    }
+}
+/* speach */
